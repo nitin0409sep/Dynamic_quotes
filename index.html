@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Quotes</title>
+</head>
+
+<body>
+
+    <section class="vh-100">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-md-12 col-xl-5">
+
+                    <figure class="bg-light p-4"
+                        style="border-left: .35rem solid #fcdb5e; border-top: 1px solid #eee; border-right: 1px solid #eee; border-bottom: 1px solid #eee;">
+                        <i class="fas fa-quote-left fa-2x mb-4" style="color: #fcdb5e;"></i>
+                        <blockquote class="blockquote pb-2">
+                            <p>
+                                {%quotes%}
+                            </p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer mb-0">
+                            {%author%}
+                        </figcaption>
+                        <figcaption style="text-align:center; ">
+                            <a href="/" type="button" class="btn btn-light">
+                                Next
+                            </a>
+                        </figcaption>
+
+                    </figure>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+<script src="./app.js">JSFile</script>
+
+</html>
